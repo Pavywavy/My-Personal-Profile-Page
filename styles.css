@@ -123,7 +123,7 @@ ul.skills {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 20px 0 40px 0; /* set left padding to 0 to center social media and copyright on page */
 }
 
 footer .copyright {
@@ -204,6 +204,8 @@ a.social:hover {
   }
 
 }
+
+/* styling for unordered list under experiences */
 
 .experienceList {
   list-style: none;
