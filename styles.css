@@ -208,8 +208,9 @@ a.social:hover {
 /* styling for unordered list under experiences */
 
 .experienceList {
+  display: table;
   list-style: none;
   margin: 0 auto;
-  padding: 0 0 0 8em;
+  padding: 0;
   font-weight: 500;
 }
