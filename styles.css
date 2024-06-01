@@ -213,3 +213,8 @@ a.social:hover {
   padding: 0;
   font-weight: 500;
 }
+
+.gameDice {
+  width: 3em;
+  padding: 0 0 0 2px;
+}
