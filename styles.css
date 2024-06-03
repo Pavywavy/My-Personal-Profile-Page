@@ -218,3 +218,8 @@ a.social:hover {
   width: 3em;
   padding: 0 0 0 2px;
 }
+
+.wizardMan {
+  width:8em;
+  position:absolute;
+}
