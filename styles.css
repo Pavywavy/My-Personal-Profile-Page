@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.nav {
+nav {
   width: 100%;
   display: flex;
   background-color: black;
@@ -31,31 +31,31 @@ a:hover {
   font-weight: 700;
   list-style-type: none;
   margin: 0 auto;
-  padding: 0;
   position: fixed;
 }
 
-.nav ul {
+nav ul {
   width: 100%;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
   padding: 0;
   margin: .5em;
+
 }
 
-.nav .name {
+nav .name {
     display: block;
     margin-right: auto;
     color: white;
 }
-.nav li {
-  padding: 5px 10px 10px 10px;
+nav li {
+  padding: 5px 10px 0px 10px;
 }
-.nav a {
+nav a {
   transition: all .5s;
 }
-.nav a:hover {
+nav a:hover {
   color: white
 }
 
@@ -226,4 +226,5 @@ a.social:hover {
 .wizardMan {
   width:8em;
   position:absolute;
+  max-width: 6.5em;
 }
