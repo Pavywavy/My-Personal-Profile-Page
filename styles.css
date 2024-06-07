@@ -218,6 +218,8 @@ a.social:hover {
   font-weight: 500;
 }
 
+/* styling for extra images added */
+
 .gameDice {
   width: 3em;
   padding: 0 0 0 2px;
@@ -227,4 +229,25 @@ a.social:hover {
   width:8em;
   position:absolute;
   max-width: 6.5em;
+}
+
+.phoneLogo, .emailLogo {
+width: 2em;
+}
+
+#contactInfoLayout {
+  list-style: none;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  padding:1em;
+  gap: 1em;
+}
+
+#contactInfoLayout li {
+  display:flex;
+  justify-content: center;
+  gap:.5em;
+  align-items: center;
 }
